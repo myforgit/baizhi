@@ -15,7 +15,7 @@ Vue.prototype.$axios = axios;
 import settings from "./settings";
 Vue.prototype.$settings = settings;
 
-
+import "../static/js/gt"
 
 //element-ui
 import Element from "element-ui"

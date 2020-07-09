@@ -24,8 +24,8 @@ from django.conf import settings
 xversion.register_models()
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
     path('xadmin/', xadmin.site.urls),
     re_path(r'media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
     path("home/", include("home.urls")),
+    path("login/", include("login.urls")),
 ]

@@ -1,19 +1,37 @@
 <template>
     <div class="footer">
         <ul>
-            <li>关于我们</li>
-            <li>联系我们</li>
-            <li>百知教育</li>
-            <li>帮助中心</li>
-            <li>意见反馈</li>
-            <li>新手指南</li>
+            <li v-for="(vre , index) in foot_list" :key="index">
+              <span>{{vre.title}}</span>
+            </li>
         </ul>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Footer"
+        name: "Footer",
+        data(){
+        return{
+          foot_list:[]
+        }
+        },
+        created(){
+          this.fot_lis()
+        },
+          methods:{
+            fot_lis(){
+              this.$axios({
+                url:this.$settings.HOST+"home/fle/",
+                methods: "get",
+              }).then(red=>{
+                console.log(red.data);
+                this.foot_list = red.data
+              }).catch(error=>{
+                console.log(error.response)
+              })
+            }
+          }
     }
 </script>
 
