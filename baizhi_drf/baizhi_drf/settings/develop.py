@@ -29,7 +29,10 @@ SECRET_KEY = 'q=trvwp&u*39h980+-keey3#t7ea#4md^!1=admgzn=65wft)y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api.abc.com',
+    'www.abc.com',
+]
 
 
 # Application definition

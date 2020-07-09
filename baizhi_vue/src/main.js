@@ -11,12 +11,22 @@ import axios from "axios";
 
 Vue.prototype.$axios = axios;
 
+
+import settings from "./settings";
+Vue.prototype.$settings = settings;
+
+
+
 //element-ui
 import Element from "element-ui"
 import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(Element);
 /* eslint-disable no-new */
+
+import '../static/css/global.css'
+
+
 new Vue({
   el: '#app',
   router,

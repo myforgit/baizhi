@@ -19,7 +19,7 @@
         methods:{
             get_all_banner(){
                 this.$axios({
-                    url:this.$settings.HOST+'home/banner/',
+                    url: this.$settings.HOST+"home/banner/",
                     method: "get",
                 }).then(res=>{
                     // 当前请求的返回值可以通过res接受到
