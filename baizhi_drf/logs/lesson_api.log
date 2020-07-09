@@ -1,0 +1,475 @@
+INFO 2020-07-08 03:46:35,736 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 03:46:38,329 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 03:46:40,269 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 03:47:31,514 basehttp 124 "GET / HTTP/1.1" 200 16348
+WARNING 2020-07-08 03:48:14,838 base 93 Not Found: /user/
+WARNING 2020-07-08 03:48:14,839 basehttp 124 "GET /user/ HTTP/1.1" 404 1955
+WARNING 2020-07-08 03:49:08,433 base 93 Not Found: /user/
+WARNING 2020-07-08 03:49:08,433 basehttp 124 "GET /user/ HTTP/1.1" 404 1955
+WARNING 2020-07-08 03:49:10,051 base 93 Not Found: /user/
+WARNING 2020-07-08 03:49:10,051 basehttp 124 "GET /user/ HTTP/1.1" 404 1955
+INFO 2020-07-08 03:49:13,777 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 03:49:15,573 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 06:24:21,969 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 06:24:22,011 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-07-08 06:24:22,112 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-08 06:24:22,126 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-08 06:24:22,126 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-08 06:28:41,115 basehttp 124 "GET / HTTP/1.1" 200 16348
+ERROR 2020-07-08 06:28:47,402 exception 74 Invalid HTTP_HOST header: 'api.baizhishop.com:9001'. You may need to add 'api.baizhishop.com' to ALLOWED_HOSTS.
+WARNING 2020-07-08 06:28:47,435 basehttp 124 "GET / HTTP/1.1" 400 60391
+ERROR 2020-07-08 06:28:47,599 exception 74 Invalid HTTP_HOST header: 'api.baizhishop.com:9001'. You may need to add 'api.baizhishop.com' to ALLOWED_HOSTS.
+WARNING 2020-07-08 06:28:47,623 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 60440
+INFO 2020-07-08 06:29:12,821 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 06:29:12,839 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-07-08 06:29:12,865 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2020-07-08 06:29:12,866 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2020-07-08 06:29:12,866 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+WARNING 2020-07-08 06:29:12,887 base 93 Not Found: /favicon.ico
+WARNING 2020-07-08 06:29:12,887 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1982
+WARNING 2020-07-08 08:08:43,085 base 93 Not Found: /
+WARNING 2020-07-08 08:08:43,085 basehttp 124 "GET / HTTP/1.1" 404 2056
+WARNING 2020-07-08 08:09:53,099 base 93 Not Found: /
+WARNING 2020-07-08 08:09:53,100 basehttp 124 "GET / HTTP/1.1" 404 2056
+WARNING 2020-07-08 08:09:53,906 base 93 Not Found: /
+WARNING 2020-07-08 08:09:53,907 basehttp 124 "GET / HTTP/1.1" 404 2056
+INFO 2020-07-08 08:10:00,002 basehttp 124 "GET /xadmin HTTP/1.1" 301 0
+INFO 2020-07-08 08:10:00,047 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4167
+INFO 2020-07-08 08:10:00,070 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-07-08 08:10:00,070 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-07-08 08:10:00,071 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-07-08 08:10:00,071 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-07-08 08:10:00,072 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-07-08 08:10:00,077 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-07-08 08:10:00,079 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-07-08 08:10:00,079 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-07-08 08:10:00,080 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-07-08 08:10:00,084 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-07-08 08:10:00,084 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-07-08 08:10:00,084 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-07-08 08:10:00,087 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-07-08 08:10:00,092 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4174
+INFO 2020-07-08 08:10:00,093 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-07-08 08:10:00,178 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-07-08 08:12:33,027 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4167
+INFO 2020-07-08 08:12:33,053 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4174
+INFO 2020-07-08 08:12:38,761 basehttp 124 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2020-07-08 08:12:38,788 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 9843
+INFO 2020-07-08 08:12:38,863 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2020-07-08 08:12:38,865 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2020-07-08 08:12:38,865 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2020-07-08 08:12:38,872 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-07-08 16:13:20,379 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 9832
+INFO 2020-07-08 16:13:20,405 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:22,967 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 9832
+INFO 2020-07-08 16:13:22,998 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:23,977 basehttp 124 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 24497
+INFO 2020-07-08 16:13:24,000 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2020-07-08 16:13:24,003 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2020-07-08 16:13:24,004 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-07-08 16:13:24,004 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2020-07-08 16:13:24,005 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2020-07-08 16:13:24,009 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2020-07-08 16:13:24,011 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
+INFO 2020-07-08 16:13:24,013 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2020-07-08 16:13:24,014 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2020-07-08 16:13:24,016 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2020-07-08 16:13:24,020 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2020-07-08 16:13:24,020 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:24,022 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2020-07-08 16:13:24,022 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2020-07-08 16:13:24,023 basehttp 124 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2020-07-08 16:13:24,024 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-07-08 16:13:24,025 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-07-08 16:13:25,814 basehttp 124 "GET /xadmin/auth/group/ HTTP/1.1" 200 19055
+INFO 2020-07-08 16:13:25,838 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:26,403 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 29394
+INFO 2020-07-08 16:13:26,424 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2020-07-08 16:13:26,430 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:27,420 basehttp 124 "GET /xadmin/auth/permission/ HTTP/1.1" 200 84752
+INFO 2020-07-08 16:13:27,445 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:28,186 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 29394
+INFO 2020-07-08 16:13:28,210 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:29,792 basehttp 124 "GET /xadmin/auth/permission/ HTTP/1.1" 200 84752
+INFO 2020-07-08 16:13:29,815 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:33,286 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 29394
+INFO 2020-07-08 16:13:33,310 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:13:34,678 basehttp 124 "GET /xadmin/auth/user/1/update/ HTTP/1.1" 200 23463
+INFO 2020-07-08 16:13:34,697 basehttp 124 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 200 3729
+INFO 2020-07-08 16:13:34,698 basehttp 124 "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 200 2317
+INFO 2020-07-08 16:13:34,704 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 200 8214
+INFO 2020-07-08 16:13:34,705 basehttp 124 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+INFO 2020-07-08 16:13:34,706 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2020-07-08 16:13:34,711 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:14:02,306 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 29394
+INFO 2020-07-08 16:32:03,718 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 29394
+INFO 2020-07-08 16:32:03,738 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:32:16,935 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 32800
+INFO 2020-07-08 16:32:16,954 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2020-07-08 16:32:16,955 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-07-08 16:32:16,961 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:32:52,307 basehttp 124 "GET /xadmin/auth/permission/ HTTP/1.1" 200 88158
+INFO 2020-07-08 16:32:58,032 basehttp 124 "GET /xadmin/auth/permission/ HTTP/1.1" 200 88158
+INFO 2020-07-08 16:32:58,058 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:33:03,695 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 13253
+INFO 2020-07-08 16:33:03,720 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:34:44,563 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 14384
+INFO 2020-07-08 16:34:44,586 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:34:49,817 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 23923
+INFO 2020-07-08 16:34:49,845 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:34:57,649 basehttp 124 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19459
+INFO 2020-07-08 16:34:57,666 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2020-07-08 16:34:57,672 basehttp 124 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2020-07-08 16:34:57,672 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2020-07-08 16:34:57,677 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:35:27,910 basehttp 124 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-07-08 16:35:27,972 basehttp 124 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19805
+INFO 2020-07-08 16:35:27,995 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:36:02,143 basehttp 124 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-07-08 16:36:02,217 basehttp 124 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19811
+INFO 2020-07-08 16:36:02,241 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:36:19,929 basehttp 124 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-07-08 16:36:19,990 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 29140
+INFO 2020-07-08 16:36:20,014 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:36:40,787 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 27770
+INFO 2020-07-08 16:36:40,812 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:36:56,971 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 28845
+INFO 2020-07-08 16:36:56,993 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:37:05,839 basehttp 124 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 19966
+INFO 2020-07-08 16:37:05,867 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:37:05,875 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-07-08 16:37:08,156 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 28845
+INFO 2020-07-08 16:37:08,180 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 16:37:32,880 basehttp 124 "GET /xadmin/home/banner/?_do_=export&export_type=xls&export_xls_header=on&all=on HTTP/1.1" 200 5632
+INFO 2020-07-08 16:43:50,524 basehttp 124 "GET /home/banner HTTP/1.1" 301 0
+INFO 2020-07-08 16:43:50,563 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 6124
+INFO 2020-07-08 16:43:50,593 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-07-08 16:43:50,600 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2020-07-08 16:43:50,601 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2020-07-08 16:43:50,601 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2020-07-08 16:43:50,601 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2020-07-08 16:43:50,601 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2020-07-08 16:43:50,603 basehttp 124 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-07-08 16:43:50,607 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-07-08 16:43:50,607 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2020-07-08 16:43:50,607 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2020-07-08 16:43:50,619 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2020-07-08 16:43:57,770 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-07-08 16:44:26,485 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 6124
+ERROR 2020-07-08 16:50:03,002 exception 74 Invalid HTTP_HOST header: '127.0.0.1:9001'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 16:50:03,062 basehttp 124 "GET /home/banner/ HTTP/1.1" 400 62621
+ERROR 2020-07-08 16:50:33,513 exception 74 Invalid HTTP_HOST header: '127.0.0.1:9001'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 16:50:33,539 basehttp 124 "GET /home/banner/ HTTP/1.1" 400 62882
+INFO 2020-07-08 16:52:26,085 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:52:30,554 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:53:00,672 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:54:09,169 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-07-08 16:54:09,173 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-07-08 16:54:09,173 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-07-08 16:54:18,961 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:54:19,064 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-07-08 16:54:19,067 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-07-08 16:54:19,069 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-07-08 16:54:58,564 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:00,761 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:01,845 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:02,517 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:03,101 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:04,652 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:05,405 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:07,138 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:59,094 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:55:59,208 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-07-08 16:55:59,210 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-07-08 16:55:59,212 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-07-08 16:56:07,515 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 16:56:07,616 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-07-08 16:56:07,624 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-07-08 16:56:07,627 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-07-08 17:12:48,588 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 29259
+INFO 2020-07-08 17:12:48,619 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2020-07-08 17:12:50,257 exception 118 Internal Server Error: /xadmin/home/nav/
+Traceback (most recent call last):
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'edu_api.bz_nav' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/list.py", line 401, in get
+    response = self.get_result_list()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/list.py", line 200, in get_result_list
+    return self.make_result_list()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/xadmin/views/list.py", line 177, in make_result_list
+    self.result_count = self.paginator.count
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/utils/functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/core/paginator.py", line 85, in count
+    return self.object_list.count()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/models/query.py", line 387, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/models/sql/query.py", line 491, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/models/sql/query.py", line 476, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/maoxy/Desktop/Python2003/code/2003_env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'edu_api.bz_nav' doesn't exist")
+ERROR 2020-07-08 17:12:50,378 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 500 259962
+INFO 2020-07-08 17:12:55,683 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 29259
+INFO 2020-07-08 17:13:11,792 basehttp 124 "GET /xadmin/home/banner/ HTTP/1.1" 200 29259
+INFO 2020-07-08 17:13:11,816 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 17:13:13,125 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 24900
+INFO 2020-07-08 17:13:13,151 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 17:13:15,407 basehttp 124 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19189
+INFO 2020-07-08 17:13:15,437 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-08 17:14:34,179 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 261
+INFO 2020-07-08 17:14:34,191 basehttp 124 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-07-08 17:14:34,191 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-08 17:14:34,192 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-09 00:17:19,655 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:24:25,108 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:24:49,199 autoreload 222 E:\jango\baizhi\baizhi_drf\baizhi_drf\settings\develop.py changed, reloading.
+INFO 2020-07-09 00:24:49,867 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:25:21,165 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:29:11,503 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:30:38,591 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:31:40,700 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:31:52,757 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:32:00,958 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:34:30,563 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:34:35,490 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:34:43,797 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:39:44,701 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:41:44,277 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:41:52,029 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:42:18,956 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:42:29,971 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:42:51,670 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:43:43,148 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:52:32,821 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-07-09 00:52:41,930 basehttp 157 "GET / HTTP/1.1" 200 16299
+INFO 2020-07-09 00:52:41,979 basehttp 157 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-07-09 00:52:42,076 basehttp 157 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-07-09 00:52:42,076 basehttp 157 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-07-09 00:52:42,077 basehttp 157 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+WARNING 2020-07-09 00:52:42,110 log 228 Not Found: /favicon.ico
+WARNING 2020-07-09 00:52:42,110 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 1976
+INFO 2020-07-09 08:22:16,359 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-07-09 09:06:02,488 base 93 Not Found: /
+WARNING 2020-07-09 09:06:02,490 basehttp 124 "GET / HTTP/1.1" 404 2155
+WARNING 2020-07-09 09:06:02,649 base 93 Not Found: /favicon.ico
+WARNING 2020-07-09 09:06:02,650 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2206
+WARNING 2020-07-09 09:06:10,726 base 93 Not Found: /xadminn
+WARNING 2020-07-09 09:06:10,726 basehttp 124 "GET /xadminn HTTP/1.1" 404 2194
+INFO 2020-07-09 09:06:18,276 basehttp 124 "GET /xadmin HTTP/1.1" 301 0
+INFO 2020-07-09 09:06:18,362 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4163
+INFO 2020-07-09 09:06:18,386 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-07-09 09:06:18,388 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-07-09 09:06:18,400 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-07-09 09:06:18,400 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-07-09 09:06:18,405 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-07-09 09:06:18,405 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-07-09 09:06:18,418 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170
+INFO 2020-07-09 09:06:18,421 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-07-09 09:06:18,423 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-07-09 09:06:18,425 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-07-09 09:06:18,430 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-07-09 09:06:18,432 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-07-09 09:06:18,434 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-07-09 09:06:18,435 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-07-09 09:06:18,436 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-07-09 09:06:18,624 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-07-09 09:06:31,389 basehttp 124 "POST /xadmin/ HTTP/1.1" 302 0
+ERROR 2020-07-09 09:06:31,399 exception 118 Internal Server Error: /xadmin/
+Traceback (most recent call last):
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\jango\eva01\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "E:\jango\eva01\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "E:\jango\eva01\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'drf.xadmin_usersettings' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\jango\eva01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\jango\eva01\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\jango\eva01\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\jango\eva01\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\xadmin\views\dashboard.py", line 592, in get
+    self.widgets = self.get_widgets()
+  File "E:\jango\eva01\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "E:\jango\eva01\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "E:\jango\eva01\lib\site-packages\xadmin\views\dashboard.py", line 549, in get_widgets
+    if len(portal_pos):
+  File "E:\jango\eva01\lib\site-packages\django\db\models\query.py", line 254, in __len__
+    self._fetch_all()
+  File "E:\jango\eva01\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\jango\eva01\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\jango\eva01\lib\site-packages\django\db\models\sql\compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\jango\eva01\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\jango\eva01\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\jango\eva01\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "E:\jango\eva01\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "E:\jango\eva01\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'drf.xadmin_usersettings' doesn't exist")
+ERROR 2020-07-09 09:06:31,636 basehttp 124 "GET /xadmin/ HTTP/1.1" 500 194059
+WARNING 2020-07-09 09:08:12,372 base 93 Not Found: /
+WARNING 2020-07-09 09:08:12,374 basehttp 124 "GET / HTTP/1.1" 404 2155
+INFO 2020-07-09 09:08:22,839 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 9833
+INFO 2020-07-09 09:08:22,871 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2020-07-09 09:08:22,881 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2020-07-09 09:08:22,882 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2020-07-09 09:08:22,889 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:28,518 basehttp 124 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 25660
+INFO 2020-07-09 09:08:28,543 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2020-07-09 09:08:28,545 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2020-07-09 09:08:28,561 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2020-07-09 09:08:28,564 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2020-07-09 09:08:28,564 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-07-09 09:08:28,566 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2020-07-09 09:08:28,569 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2020-07-09 09:08:28,578 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:28,581 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-07-09 09:08:28,582 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-07-09 09:08:28,585 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
+INFO 2020-07-09 09:08:28,605 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2020-07-09 09:08:28,607 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2020-07-09 09:08:28,607 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2020-07-09 09:08:28,607 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2020-07-09 09:08:28,610 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2020-07-09 09:08:28,654 basehttp 124 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2020-07-09 09:08:29,360 basehttp 124 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 24498
+INFO 2020-07-09 09:08:29,390 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:31,088 basehttp 124 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 24498
+INFO 2020-07-09 09:08:31,115 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:31,721 basehttp 124 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 25660
+INFO 2020-07-09 09:08:31,751 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:32,183 basehttp 124 "GET /xadmin/auth/group/ HTTP/1.1" 200 19056
+INFO 2020-07-09 09:08:32,211 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:32,705 basehttp 124 "GET /xadmin/auth/user/ HTTP/1.1" 200 29396
+INFO 2020-07-09 09:08:32,732 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2020-07-09 09:08:32,740 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-09 09:08:33,381 basehttp 124 "GET /xadmin/auth/permission/ HTTP/1.1" 200 84727
+INFO 2020-07-09 09:08:33,416 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
