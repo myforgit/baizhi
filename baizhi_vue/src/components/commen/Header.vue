@@ -31,7 +31,7 @@
           <div class="login-box full-left">
             <router-link to="home/login">登录</router-link>
             &nbsp;|&nbsp;
-            <span>注册</span>
+            <span><router-link to="home/register/">注册</router-link></span>
           </div>
         </div>
       </div>

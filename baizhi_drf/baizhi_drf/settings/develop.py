@@ -214,3 +214,27 @@ AUTH_USER_MODEL = 'login.UserInfo'
 AUTHENTICATION_BACKENDS = [
     'login.utils.UserAuthBackend',
 ]
+
+# CACHES = {
+#     # 默认库
+#     "default": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         # 连接的redis所在服务的端口以及ip
+#         "LOCATION": "redis://127.0.0.1:6379/0",
+#         # 使用客户端的方式
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     },
+#
+#     # 验证码储存位置
+#     "sms_code": {
+#         "BACKEND": "django_redis.cache.RedisCache",
+#         # 连接的redis所在服务的端口以及ip
+#         "LOCATION": "redis://127.0.0.1:6379/15",
+#         # 使用客户端的方式
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#         }
+#     },
+# }
