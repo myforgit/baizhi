@@ -8,6 +8,6 @@ urlpatterns = [
     path("captcha/", views.CaptchaAPIView.as_view()),
     path("enroll/", views.RegisterAPIViw.as_view()),
     path("verify/", views.VerifyAPIVew.as_view()),
-    path("lone/<str；pk>", views.LoginMessageAPIView.as_view()),
+    path("lone/", views.LoginMessageAPIView.as_view({"post": "login"})),
     path("mes/<str:mobile>", views.SendMessageAPIView.as_view()),
 ]

@@ -1,11 +1,14 @@
 import random
 import re
 
+from django_filters.rest_framework import DjangoFilterBackend
 from django_redis import get_redis_connection
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status as http_status, serializers, status
-from rest_framework.generics import CreateAPIView, RetrieveAPIView
+from rest_framework.generics import CreateAPIView, RetrieveAPIView, ListAPIView
+from rest_framework.viewsets import ViewSet
+
 from baizhi_drf.libs.geetest import GeetestLib
 from baizhi_drf.settings import constants
 
@@ -77,7 +80,7 @@ class VerifyAPIVew(APIView):
         return Response({"message": "OK"})
 
 
-# 短信登录发送
+# 短信发送
 class SendMessageAPIView(APIView):
 
     def get(self, request, mobile):
@@ -113,7 +116,24 @@ class SendMessageAPIView(APIView):
         return Response({"message": "发送短信成功"}, status=http_status.HTTP_200_OK)
 
 
-class LoginMessageAPIView(APIView):
-    # queryset = UserInfo.objects.all()
-    # serializer_class = LoginModel
+class LoginMessageAPIView(ViewSet):
 
+    def login(self, request, *args, **kwargs):
+        phone = request.data.get("phone")
+        # try:
+        phone_ser = UserInfo.objects.get(phone=phone)
+        # except:
+        #     return Response({"message": "该用户不存在"})
+        book_obj = LoginModel(phone_ser).data
+        from rest_framework_jwt.settings import api_settings
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+
+        payload = jwt_payload_handler(phone_ser)
+        token = jwt_encode_handler(payload)
+        return Response({
+            "status": status.HTTP_200_OK,
+            "mig": "查询单个用户成功！",
+            "request": book_obj,
+            "token": token,
+        })

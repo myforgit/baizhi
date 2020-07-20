@@ -150,13 +150,14 @@
             },
             // 发送短信
             auth_code(){
-                if(!/1[3-9]\d{9}/.test(this.mobile)){
+                if(!/1[3-9]\d{9}/.test(this.phones)){
+                    console.log(1)
                     this.$message.error('手机号格式不正确');
                     return false
                 }
 
                 this.$axios({
-                    url:this.$settings.HOST+"login/mes/"+`${this.mobile}`,
+                    url:this.$settings.HOST+"login/mes/"+`${this.phones}`,
                     methods: "get"
                 }).then(red=>{
                     console.log(red.data);
@@ -179,14 +180,29 @@
                 })
             },
             git_login(){
+                console.log(this.phones)
+                console.log(this.code)
                 this.$axios({
-                    url:this.$settings.HOST+"login/lone/"+`${this.phones}`,
-                    method:"get"
+                    url: this.$settings.HOST + "login/lone/",
+                    method: "post",
+                    data: {
+                        "phone": this.phones,
+                        "sms_code": this.code,
+                    }
                 }).then(red=>{
-                    console.log(red.data)
+                    console.log(red.data);
+                    this.$message({
+                        message: '恭喜你，登录成功',
+                        type: 'success'
+                    });
+                    localStorage.clear();
+                    sessionStorage.user_token = red.data.token;
+                    sessionStorage.username = red.data.request.username;
+                    sessionStorage.user_id = red.data.request.id;
+                    this.$router.push("/");
                 }).catch(error=>{
-                    console.log(error.request)
-                    console.log(1)
+                    console.log(error.response);
+                    this.$message.error('用户名或密码错误');
                 })
             }
 

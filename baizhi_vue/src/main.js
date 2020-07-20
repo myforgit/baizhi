@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store/index'
 
 Vue.config.productionTip = false
 
@@ -13,9 +14,16 @@ Vue.prototype.$axios = axios;
 
 
 import settings from "./settings";
+
 Vue.prototype.$settings = settings;
 
 import "../static/js/gt"
+
+require('video.js/dist/video-js.css');
+require('vue-video-player/src/custom-theme.css');
+import VideoPlayer from 'vue-video-player'
+
+Vue.use(VideoPlayer);
 
 //element-ui
 import Element from "element-ui"
@@ -28,8 +36,9 @@ import '../static/css/global.css'
 
 
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    store,
+    components: {App},
+    template: '<App/>'
 })

@@ -7,14 +7,14 @@
         </div>
         <ul class="nav full-left">
           <li v-for="(ver ,index) in head_list " :key="index">
-            <span>{{ver.title}}</span>
+            <span><router-link to="/course">{{ver.title}}</router-link></span>
           </li>
         </ul>
 <!--        用户登录成功-->
         <div class="login-bar full-right" v-if="token">
           <div class="shop-cart full-left" >
             <img src="" alt="">
-            <span><router-link to="/cart">购物车</router-link></span>
+            <span><router-link to="/cart">{{this.$store.state.cart_length}}购物车</router-link></span>
           </div>
           <div class="login-box full-left">
             <router-link to="home/login">个人中心</router-link>
@@ -29,9 +29,9 @@
             <span><router-link to="/cart">购物车</router-link></span>
           </div>
           <div class="login-box full-left">
-            <router-link to="home/login">登录</router-link>
+            <router-link to="/home/login">登录</router-link>
             &nbsp;|&nbsp;
-            <span><router-link to="home/register/">注册</router-link></span>
+            <span><router-link to="/home/register/">注册</router-link></span>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
           url: this.$settings.HOST + "home/hed/",
           methods: "get",
         }).then(red => {
-          console.log(red.data);
+          // console.log(red.data);
           this.head_list = red.data
         }).catch(error => {
           console.log(error.response)

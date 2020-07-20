@@ -25,7 +25,7 @@
                 url:this.$settings.HOST+"home/fle/",
                 methods: "get",
               }).then(red=>{
-                console.log(red.data);
+                // console.log(red.data);
                 this.foot_list = red.data
               }).catch(error=>{
                 console.log(error.response)

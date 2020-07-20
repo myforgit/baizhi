@@ -54,7 +54,7 @@
                     data: {
                         phone: this.mobile,
                         password: this.password,
-                        // sms_code:this.code,
+                        sms_code:this.code,
                     }
                 }).then(red=>{
                     console.log(red.data);
