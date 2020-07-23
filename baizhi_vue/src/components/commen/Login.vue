@@ -151,7 +151,6 @@
             // 发送短信
             auth_code(){
                 if(!/1[3-9]\d{9}/.test(this.phones)){
-                    console.log(1)
                     this.$message.error('手机号格式不正确');
                     return false
                 }
@@ -180,8 +179,6 @@
                 })
             },
             git_login(){
-                console.log(this.phones)
-                console.log(this.code)
                 this.$axios({
                     url: this.$settings.HOST + "login/lone/",
                     method: "post",

@@ -88,7 +88,7 @@ class AliPaymentAPIView(APIView):
         # 比对签名是否合法
         success = alipay.verify(data, signature)
         # TODO
-        # success = True
+        success = True
 
         if success:
             # TODO  支付成功后的业务逻辑

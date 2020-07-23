@@ -45,7 +45,7 @@
                 this.$axios.get(`${this.$settings.HOST}payment/money_apy/` + location.search,
                 ).then(red => {
                     console.log(red.data);
-                    this.list_add = red.data
+                    this.list_add = red.data;
                     this.list_time = red.data.pay_time
                 }).catch(eroor => {
                     console.log(eroor.request)

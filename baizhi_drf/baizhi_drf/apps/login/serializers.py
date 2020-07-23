@@ -53,7 +53,6 @@ class UserModelSerializer(serializers.ModelSerializer):
         # TODO 验证手机号短信验证码是否正确
         redis_connection = get_redis_connection("sms_code")
         phone_code = redis_connection.get("mobile_%s" % phone)
-        print(phone_code)
         if phone_code.decode() != sms_code:
             # 为了防止暴力破解 可以再次设置一个手机号只能验证 n次  累加
             raise serializers.ValidationError("验证码不一致")
@@ -85,7 +84,6 @@ class UserModelSerializer(serializers.ModelSerializer):
 
         payload = jwt_payload_handler(user)
         user.token = jwt_encode_handler(payload)
-        print(user)
         return user
 
 
@@ -113,7 +111,6 @@ class LoginModel(serializers.ModelSerializer):
             """验证手机号"""
             phone = attrs.get("phone")
             sms_code = attrs.get("sms_code")  # 用户提交的验证码
-            print(sms_code)
             # 验证手机号格式
             if not re.match(r'^1[3-9]\d{9}$', phone):
                 raise serializers.ValidationError("手机号格式错误")
@@ -121,7 +118,6 @@ class LoginModel(serializers.ModelSerializer):
             # TODO 验证手机号短信验证码是否正确
             redis_connection = get_redis_connection("sms_code")
             phone_code = redis_connection.get("mobile_%s" % phone)
-            print(phone_code)
             if phone_code.decode() != sms_code:
                 # 为了防止暴力破解 可以再次设置一个手机号只能验证 n次  累加
                 raise serializers.ValidationError("验证码不一致")

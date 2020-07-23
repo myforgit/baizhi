@@ -107,8 +107,8 @@ class SendMessageAPIView(APIView):
 
         # 4. 调用方法  完成短信的发送
         try:
-            message = Message(constants.API_KEY)
-            message.send_message(mobile, code)
+            from my_task.sms.tasks import send_sms
+            send_sms.delay(mobile, code)
         except:
             return Response({"message": "短信发送失败"}, status=http_status.HTTP_500_INTERNAL_SERVER_ERROR)
 
@@ -120,10 +120,10 @@ class LoginMessageAPIView(ViewSet):
 
     def login(self, request, *args, **kwargs):
         phone = request.data.get("phone")
-        # try:
-        phone_ser = UserInfo.objects.get(phone=phone)
-        # except:
-        #     return Response({"message": "该用户不存在"})
+        try:
+            phone_ser = UserInfo.objects.get(phone=phone)
+        except:
+            return Response({"message": "该用户不存在"})
         book_obj = LoginModel(phone_ser).data
         from rest_framework_jwt.settings import api_settings
         jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
